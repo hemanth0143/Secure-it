@@ -1,0 +1,14 @@
+# Initialize Git (if new project)
+git init
+
+# Connect to your Secure-it repository
+git remote add origin https://github.com/hemanth0143/Secure-it.git
+
+# Stage all files (except build/ folders)
+git add .
+
+# Commit your code
+git commit -m "Initial commit: Complete Secure-it Flutter app"
+
+# Push to main branch
+git push -u origin main
